@@ -39,7 +39,7 @@ export const Cart = () => {
             </div>
             <div className="flex flex-col space-y-3 mb-7">
               <div className="flex flex-row justify-center">
-                <p>Subtotal: ${totalAmount}</p>
+                <p>Subtotal: $ {totalAmount}</p>
               </div>
               <div className="flex flex-row space-x-5 justify-center">
                 <button
